@@ -20,6 +20,10 @@ editorBundles = {
         value = "editor_heal"
     },
     {
+        labelres ="editor_advantage",
+        value = "editor_advantage"
+    },
+    {
         labelres ="editor_misc",
         value = "editor_misc"
     },

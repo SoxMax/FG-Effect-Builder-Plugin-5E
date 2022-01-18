@@ -1,16 +1,28 @@
 function onInit()
     EditorLoader.advantageEditors = {
         {
+            labelres ="init",
+            value = "ADVINIT"
+        },
+        {
             labelres ="atk",
-            value = "ATK"
+            value = "ADVATK"
         },
         {
-            labelres ="dmg",
-            value = "DMG"
+            labelres ="save",
+            value = "ADVSAV"
         },
         {
-            labelres ="dmgtype",
-            value = "DMGTYPE"
+            labelres ="check",
+            value = "ADVCHK"
+        },
+        {
+            labelres ="skill",
+            value = "ADVSKILL"
+        },
+        {
+            labelres ="death",
+            value = "ADVDEATH"
         }
     }
 end

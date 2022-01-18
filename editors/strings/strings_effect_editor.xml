@@ -35,6 +35,11 @@
     <string name="dmgs">Spell Damage</string>
     <string name="dmgstype">Spell Damage Type</string>
     
+    <string name="editor_advantage">(Dis)Advantages</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="incoming">Incoming</string>
+
+    
     <string name="editor_misc">Miscellaneous</string>
     <string name="skill">Skill</string>
     <string name="nlvl">Negative Level</string>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="ADVSKILL">
+        <script file="editors/effect/scripts/ADVSKILL.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <combobox_skills />
+        </sheetdata>
+    </windowclass>
+</root>

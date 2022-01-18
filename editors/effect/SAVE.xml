@@ -17,14 +17,7 @@
                 </anchored>
             </effect_number>
 
-            <combobox_abilities>
-                <script>
-                    function onInit()
-                        super.onInit()
-                        add("concentration")
-                    end
-                </script>
-            </combobox_abilities>
+            <combobox_saves />
         </sheetdata>
     </windowclass>
 </root>

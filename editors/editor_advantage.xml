@@ -17,11 +17,12 @@
             <leftanchor />
 
             <cycler_effect_subwindow>
-                <anchored />
                 <parameters>
                     <dynamicinitlist>advantageEditors</dynamicinitlist>
                 </parameters>
             </cycler_effect_subwindow>
+
+            <cycler_advantage />
 
             <subwindow_effect_editor />
         </sheetdata>
