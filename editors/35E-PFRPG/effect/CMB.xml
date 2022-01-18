@@ -17,8 +17,6 @@
                 </anchored>
             </effect_number>
 
-            <combobox_bonus_types name="effect_bonus_type" />
-
             <label_effect>
                 <static textres="opportunity_bonus"/>
             </label_effect>

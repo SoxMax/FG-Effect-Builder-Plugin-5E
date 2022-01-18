@@ -9,8 +9,6 @@
 
             <effect_number name="effect_modifier" />
 
-            <combobox_bonus_types name="effect_bonus_type" />
-
             <cycler_range />
 
             <label_effect>

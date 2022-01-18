@@ -4,9 +4,6 @@ function createEffectString()
     if not damage_type.isEmpty() then
         table.insert(descriptors, damage_type.getValue())
     end
-    if not effect_bonus_type.isEmpty() then
-        table.insert(descriptors, effect_bonus_type.getValue())
-    end
     local effectRange = effect_range.getStringValue()
     if effectRange ~= "" then
         table.insert(descriptors, effectRange)

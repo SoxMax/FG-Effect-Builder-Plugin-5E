@@ -17,8 +17,6 @@
                 </anchored>
             </effect_number>
 
-            <combobox_bonus_types name="effect_bonus_type" />
-
             <combobox_skills name="effect_skill_name" />
         </sheetdata>
     </windowclass>

@@ -19,8 +19,6 @@
 
             <combobox_damage_types name="damage_type" />
 
-            <combobox_bonus_types name="effect_bonus_type" />
-
             <cycler_range />
         </sheetdata>
     </windowclass>
