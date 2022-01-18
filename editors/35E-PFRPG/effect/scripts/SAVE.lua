@@ -1,8 +1,7 @@
 function createEffectString()
-    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. effect_modifier.getValue()
-    local save_type = save_type.getStringValue()
-    if save_type ~= "" then
-        effectString = effectString .. " " .. effect.getStringValue()
+    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. StringManager.convertDiceToString(effect_dice.getDice(), effect_modifier.getValue())
+    if not abilities.isEmpty() then
+        effectString = effectString .. " " .. abilities.getStringValue()
     end
     return effectString
 end
