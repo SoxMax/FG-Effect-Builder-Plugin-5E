@@ -6,6 +6,8 @@
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
+
+            <spaceholder />
         </sheetdata>
     </windowclass>
 </root>
