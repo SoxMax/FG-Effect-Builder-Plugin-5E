@@ -5,7 +5,6 @@
     <script name="LoaderDefense" file="editors/loader/loader_defense.lua" />
     <!-- individual effect editors -->
     <includefile source="editors/effect/AC.xml" />
-    <includefile source="editors/effect/CMD.xml" />
     <includefile source="editors/effect/SAVE.xml" />
     <!-- combat effects bundle editor -->
     <windowclass name="editor_defense">

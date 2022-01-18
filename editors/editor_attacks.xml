@@ -5,10 +5,9 @@
     <script name="LoaderAttacks" file="editors/loader/loader_attacks.lua" />
     <!-- individual effect editors -->
     <includefile source="editors/effect/ATK.xml" />
-    <includefile source="editors/effect/CMB.xml" />
     <includefile source="editors/effect/DMG.xml" />
     <includefile source="editors/effect/DMGTYPE.xml" />
-    <includefile source="editors/effect/CC.xml" />
+    <includefile source="editors/effect/DMGO.xml" />
     <!-- attack effects bundle editor -->
     <windowclass name="editor_attacks">
         <script file="editors/scripts/subwindow_editor.lua" />

@@ -1,7 +1,7 @@
 function onInit()
     EditorLoader.advantageEditors = {
         {
-            labelres ="init",
+            labelres ="initiative",
             value = "ADVINIT"
         },
         {
@@ -13,7 +13,7 @@ function onInit()
             value = "ADVSAV"
         },
         {
-            labelres ="check",
+            labelres ="ability_check",
             value = "ADVCHK"
         },
         {

@@ -19,6 +19,7 @@
     <string name="editor_defense">Defense</string>
     <string name="ac_long">Armor Class (AC)</string>
     <string name="cmd_long">Combat Maneuver Defense (CMD)</string>
+    <string name="save">Save</string>
     <string name="allsaves">All Saves</string>
 
     <string name="editor_susceptibility">Susceptibility</string>
@@ -37,10 +38,13 @@
     <string name="dmgstype">Spell Damage Type</string>
     
     <string name="editor_advantage">(Dis)Advantages</string>
+    <string name="advantage">Advantage</string>
+    <string name="disadvantage">Disadvantage</string>
     <string name="outgoing">Outgoing</string>
     <string name="incoming">Incoming</string>
+    <string name="ability_check">Ability Check</string>
+    <string name="death">Death Rolls</string>
 
-    
     <string name="editor_misc">Miscellaneous</string>
     <string name="skill">Skill</string>
     <string name="nlvl">Negative Level</string>
