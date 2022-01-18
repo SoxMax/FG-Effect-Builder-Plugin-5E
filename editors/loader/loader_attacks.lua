@@ -11,6 +11,10 @@ function onInit()
         {
             labelres ="dmgtype",
             value = "DMGTYPE"
+        },
+        {
+            labelres ="dmgo",
+            value = "DMGO"
         }
     }
 end

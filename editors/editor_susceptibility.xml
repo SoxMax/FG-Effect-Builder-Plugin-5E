@@ -12,8 +12,8 @@
                 <parameters>
                     <defaultlabelres mergerule="replace">immune</defaultlabelres>
                     <defaultvalue>IMMUNE</defaultvalue>
-                    <labelsres>resist|dr|vuln</labelsres>
-                    <values>RESIST|DR|VULN</values>
+                    <labelsres>resist|vuln</labelsres>
+                    <values>RESIST|VULN</values>
                 </parameters>
                 <script>
                     function onValueChanged()
