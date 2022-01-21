@@ -11,7 +11,7 @@
 		</ruleset>
 	</properties>
 	
-	<announcement text="https://github.com/SoxMax/FG-Effect-Builder-Plugin-5E  \r Effect Builder Plugin - D&#38;D 5e / PFRPG Effects v0.2.0 \r Plugin for the Effect Builder providing D&#38;D 5e effects" font="emotefont" />
+	<announcement text="https://forge.fantasygrounds.com/shop/items/463/view  \r Effect Builder Plugin - D&#38;D 5e / PFRPG Effects v0.2.0 \r Plugin for the Effect Builder providing D&#38;D 5e effects" font="emotefont" />
 	
 	<base>
 		<!-- Templates -->
