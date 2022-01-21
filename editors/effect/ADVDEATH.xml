@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="ADVDEATH">
+    <windowclass name="effect_ADVDEATH">
         <script file="editors/effect/scripts/ADVDEATH.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
 
+            <cycler_advantage />
+
             <spaceholder />
         </sheetdata>
     </windowclass>
+    <script name="loader_ADVDEATH">
+        function onInit()
+            EditorManager.addEditor(
+                "category_advantage",
+                {
+                    value="ADVDEATH",
+                    labelres="effect_death",
+                    windowclass="effect_ADVDEATH"
+                }
+            )
+        end
+    </script>
 </root>

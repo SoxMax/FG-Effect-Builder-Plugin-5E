@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="ATK">
+    <windowclass name="effect_ATK">
         <script file="editors/effect/scripts/ATK.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -25,4 +25,16 @@
             <checkbox_effect name="effect_opportunity"/>
         </sheetdata>
     </windowclass>
+    <script name="loader_ATK">
+        function onInit()
+            EditorManager.addEditor(
+                "category_attack",
+                {
+                    value="ATK",
+                    labelres="effect_atk",
+                    windowclass="effect_ATK"
+                }
+            )
+        end
+    </script>
 </root>

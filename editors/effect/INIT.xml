@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="INIT">
+    <windowclass name="effect_INIT">
         <script file="editors/effect/scripts/INIT.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -18,4 +18,16 @@
             </effect_number>
         </sheetdata>
     </windowclass>
+    <script name="loader_INIT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="INIT",
+                    labelres="effect_init",
+                    windowclass="effect_INIT"
+                }
+            )
+        end
+    </script>
 </root>

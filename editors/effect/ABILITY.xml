@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_ABILITY">
+        <script file="editors/effect/scripts/ABILITY.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <effect_number name="effect_modifier" />
+
+            <label_effect>
+                <static textres="check_bonus"/>
+            </label_effect>
+            <checkbox_effect name="check_bonus"/>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_ABILITY">
+        function onInit()
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="STR",
+                    labelres="strength",
+                    windowclass="effect_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="DEX",
+                    labelres="dexterity",
+                    windowclass="effect_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="CON",
+                    labelres="constitution",
+                    windowclass="effect_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="INT",
+                    labelres="intelligence",
+                    windowclass="effect_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="WIS",
+                    labelres="wisdom",
+                    windowclass="effect_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="CHA",
+                    labelres="charisma",
+                    windowclass="effect_ABILITY"
+                }
+            )
+        end
+    </script>
+</root>

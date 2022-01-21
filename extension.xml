@@ -18,7 +18,37 @@
 		<includefile source="common/combobox.xml" />
 		<includefile source="common/cyclers.xml" />
 
+		<!-- Strings -->
+		<includefile source="strings/strings_common.xml" />
+		<includefile source="editors/strings/strings_effect_editor.xml" />
+
 		<!-- Editors -->
-		<includefile source="loader/editor_loader.xml" />
+		<includefile source="editors/effect/ABILITY.xml" />
+		<includefile source="editors/effect/AC.xml" />
+		<includefile source="editors/effect/ADVATK.xml" />
+		<includefile source="editors/effect/ADVCHK.xml" />
+		<includefile source="editors/effect/ADVDEATH.xml" />
+		<includefile source="editors/effect/ADVINIT.xml" />
+		<includefile source="editors/effect/ADVSAV.xml" />
+		<includefile source="editors/effect/ADVSKILL.xml" />
+		<includefile source="editors/effect/ATK.xml" />
+		<includefile source="editors/effect/DMG.xml" />
+		<includefile source="editors/effect/DMGO.xml" />
+		<includefile source="editors/effect/DMGTYPE.xml" />
+		<includefile source="editors/effect/HEAL.xml" />
+		<includefile source="editors/effect/IMMUNE.xml" />
+		<includefile source="editors/effect/INIT.xml" />
+		<includefile source="editors/effect/REGEN.xml" />
+		<includefile source="editors/effect/RESIST.xml" />
+		<includefile source="editors/effect/SAVE.xml" />
+		<includefile source="editors/effect/SKILL.xml" />
+		<includefile source="editors/effect/VULN.xml" />
+
+		<includefile source="editors/conditional/conditional_ALIGN.xml" />
+		<includefile source="editors/conditional/conditional_CONDITION.xml" />
+		<includefile source="editors/conditional/conditional_CREATURE_TYPE.xml" />
+		<includefile source="editors/conditional/conditional_CUSTOM.xml" />
+		<includefile source="editors/conditional/conditional_HEALTH.xml" />
+		<includefile source="editors/conditional/conditional_SIZE.xml" />
 	</base>
 </root>

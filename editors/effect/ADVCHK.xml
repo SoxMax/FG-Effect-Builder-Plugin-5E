@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="ADVCHK">
+    <windowclass name="effect_ADVCHK">
         <script file="editors/effect/scripts/ADVCHK.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
 
+            <cycler_advantage />
+
             <combobox_abilities />
         </sheetdata>
     </windowclass>
+    <script name="loader_ADVCHK">
+        function onInit()
+            EditorManager.addEditor(
+                "category_advantage",
+                {
+                    value="ADVCHK",
+                    labelres="effect_ability_check",
+                    windowclass="effect_ADVCHK"
+                }
+            )
+        end
+    </script>
 </root>

@@ -1,3 +1,3 @@
 function createEffectString()
-    return parentcontrol.window.advantage.getStringValue() .. "DEATH"
+    return advantage.getStringValue() .. "DEATH"
 end

@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="ADVSKILL">
+    <windowclass name="effect_ADVSKILL">
         <script file="editors/effect/scripts/ADVSKILL.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
 
+            <cycler_advantage />
+
             <combobox_skills />
         </sheetdata>
     </windowclass>
+    <script name="loader_ADVSKILL">
+        function onInit()
+            EditorManager.addEditor(
+                "category_advantage",
+                {
+                    value="ADVSKILL",
+                    labelres="effect_skill",
+                    windowclass="effect_ADVSKILL"
+                }
+            )
+        end
+    </script>
 </root>

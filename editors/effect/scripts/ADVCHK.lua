@@ -1,5 +1,5 @@
 function createEffectString()
-    local effectString = parentcontrol.window.advantage.getStringValue() .. "CHK"
+    local effectString = advantage.getStringValue() .. "CHK"
     if not ability.isEmpty() then
         effectString = effectString .. ": " .. ability.getValue()
     end

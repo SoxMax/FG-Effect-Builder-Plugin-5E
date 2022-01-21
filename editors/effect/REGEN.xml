@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="effect_SAVE">
-        <script file="editors/effect/scripts/SAVE.lua" />
+    <windowclass name="effect_REGEN">
+        <script file="editors/effect/scripts/REGEN.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
@@ -17,17 +17,17 @@
                 </anchored>
             </effect_number>
 
-            <combobox_saves />
+            <combobox_damage_types />
         </sheetdata>
     </windowclass>
-    <script name="loader_SAVE">
+    <script name="loader_REGEN">
         function onInit()
             EditorManager.addEditor(
-                "category_defense",
+                "category_heal",
                 {
-                    value="SAVE",
-                    labelres="effect_save",
-                    windowclass="effect_SAVE"
+                    value="REGEN",
+                    labelres="effect_regen",
+                    windowclass="effect_REGEN"
                 }
             )
         end
