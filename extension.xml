@@ -15,7 +15,6 @@
 	
 	<base>
 		<!-- Templates -->
-		<includefile source="common/old/old_loader.xml" />
 		<includefile source="common/combobox.xml" />
 		<includefile source="common/cyclers.xml" />
 
