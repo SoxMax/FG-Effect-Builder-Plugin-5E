@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <template name="combobox_saves">
-        <combobox_abilities name="save">
+    <template name="combobox_eb_save">
+        <combobox_eb_ability name="save">
             <script>
                 function onInit()
                     super.onInit()
                     add("concentration")
                 end
             </script>
-        </combobox_abilities>
+        </combobox_eb_ability>
     </template>
 </root>

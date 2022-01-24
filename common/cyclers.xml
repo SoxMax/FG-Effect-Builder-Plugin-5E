@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <template name="cycler_range">
-        <stringcycler_effect name="effect_range">
+    <template name="cycler_eb_range">
+        <cycler_eb_valueholder name="effect_range">
             <parameters>
                 <defaultlabelres mergerule="replace">allrange</defaultlabelres>
                 <labelsres>melee|ranged</labelsres>
                 <values>melee|ranged</values>
             </parameters>
-        </stringcycler_effect>
+        </cycler_eb_valueholder>
     </template>
 
-    <template name="cycler_advantage">
-        <stringcycler_effect name="advantage">
+    <template name="cycler_eb_advantage">
+        <cycler_eb_valueholder name="advantage">
             <parameters>
                 <defaultlabelres>advantage</defaultlabelres>
                 <defaultvalue>ADV</defaultvalue>
                 <labelsres>disadvantage</labelsres>
                 <values>DIS</values>
             </parameters>
-        </stringcycler_effect>
+        </cycler_eb_valueholder>
     </template>
 
-    <template name="cycler_ifs">
-        <stringcycler_effect name="target">
+    <template name="cycler_eb_ifs">
+        <cycler_eb_valueholder name="target">
             <anchored width="60" />
             <parameters mergerule="replace">
                 <defaultlabelres>if</defaultlabelres>
@@ -31,6 +31,6 @@
                 <labelsres>ift</labelsres>
                 <values>IFT</values>
             </parameters>
-        </stringcycler_effect>
+        </cycler_eb_valueholder>
     </template>
 </root>
