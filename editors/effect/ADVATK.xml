@@ -22,7 +22,7 @@
             <label_eb>
                 <static textres="opportunity_bonus"/>
             </label_eb>
-            <checkbox_eb name="effect_opportunity"/>
+            <checkbox_eb_valueholder name="effect_opportunity"/>
         </sheetdata>
     </windowclass>
     <script name="loader_ADVATK">
