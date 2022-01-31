@@ -7,7 +7,11 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <subwindow_eb_damage_types />
+            <subwindow_eb_damage_types>
+                <anchored>
+                    <left offset="0" />
+                </anchored>
+            </subwindow_eb_damage_types>
         </sheetdata>
     </windowclass>
     <script name="loader_DMGTYPE">
