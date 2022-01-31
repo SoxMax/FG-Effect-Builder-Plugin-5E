@@ -1,9 +1,9 @@
 local function createAbilityEffectString()
-    return parentcontrol.window.effect.getStringValue() .. ": " .. effect_modifier.getValue()
+    return parentcontrol.window.effect.getStringValue() .. ": " .. number_value.getStringValue()
 end
 
 local function createAbilityCheckEffectString()
-    return "CHECK: " .. effect_modifier.getValue() .. " " .. DataCommon.ability_stol[parentcontrol.window.effect.getStringValue()]
+    return "CHECK: " .. number_value.getStringValue() .. " " .. DataCommon.ability_stol[parentcontrol.window.effect.getStringValue()]
 end
 
 

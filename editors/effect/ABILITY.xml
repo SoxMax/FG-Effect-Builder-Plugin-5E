@@ -7,9 +7,12 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <number_eb_valueholder name="effect_modifier" />
+            <subwindow_eb_number_value />
 
             <label_eb>
+                <anchored>
+                    <left offset="5" />
+                </anchored>
                 <static textres="check_bonus"/>
             </label_eb>
             <checkbox_eb_valueholder name="check_bonus"/>

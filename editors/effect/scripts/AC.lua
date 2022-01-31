@@ -1,5 +1,5 @@
 function createEffectString()
-    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. effect_modifier.getValue()
+    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. number_value.getStringValue()
     local descriptors = {}
     local effectRange = effect_range.getStringValue()
     if effectRange ~= "" then
