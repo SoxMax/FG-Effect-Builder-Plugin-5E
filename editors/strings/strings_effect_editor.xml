@@ -9,6 +9,7 @@
     <string name="effect_dmg">Damage</string>
     <string name="effect_dmgo">Damage per Turn</string>
     <string name="effect_dmgtype">Damage Type</string>
+    <string name="critical_bonus">Critical Only?</string>
 
     <string name="category_defense">Defense</string>
     <string name="effect_ac">Armor Class (AC)</string>

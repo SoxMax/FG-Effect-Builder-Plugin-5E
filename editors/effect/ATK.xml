@@ -7,17 +7,13 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <dice_eb_valueholder name="effect_dice" />
-
-			<label_eb_plus />
-
-            <number_eb_valueholder name="effect_modifier">
+            <subwindow_eb_dice_value />
+            
+            <cycler_eb_range>
                 <anchored>
                     <left offset="5" />
                 </anchored>
-            </number_eb_valueholder>
-
-            <cycler_eb_range />
+            </cycler_eb_range>
 
             <label_eb>
                 <static textres="opportunity_bonus"/>

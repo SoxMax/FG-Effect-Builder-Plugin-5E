@@ -1,12 +1,8 @@
 function createEffectString()
-    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. StringManager.convertDiceToString(effect_dice.getDice(), effect_modifier.getValue())
-    local descriptors = {}
-    if not damage_type.isEmpty() then
-        table.insert(descriptors, damage_type.getValue())
-    end
-
-    if next(descriptors) then
-        effectString = effectString .. " " .. table.concat(descriptors, ",")
+    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. dice_value.getStringValue()
+    local damageType = damage_types.getStringValue()
+    if damageType ~= "" then
+        effectString = effectString .. " " .. damageType
     end
 
     return effectString

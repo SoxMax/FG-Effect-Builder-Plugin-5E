@@ -7,19 +7,20 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <dice_eb_valueholder name="effect_dice" />
+            <subwindow_eb_dice_value />
 
-			<label_eb_plus />
+            <subwindow_eb_damage_types />
 
-            <number_eb_valueholder name="effect_modifier">
+            <cycler_eb_range>
                 <anchored>
                     <left offset="5" />
                 </anchored>
-            </number_eb_valueholder>
+            </cycler_eb_range>
 
-            <combobox_eb_damage_type name="damage_type" />
-
-            <cycler_eb_range />
+            <label_eb>
+                <static textres="critical_bonus"/>
+            </label_eb>
+            <checkbox_eb_valueholder name="effect_critical"/>
         </sheetdata>
     </windowclass>
     <script name="loader_DMG">
