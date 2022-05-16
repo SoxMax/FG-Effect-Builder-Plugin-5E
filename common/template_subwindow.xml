@@ -96,6 +96,10 @@
                 <left><offset>10</offset></left>
             </anchored>
             <script>
+                function onInit()
+                    super.onInit()
+                    addItems({"all"})
+                end
                 function onValueChanged()
                     window.damageFieldUpdated(self)
                     super.onValueChanged()
