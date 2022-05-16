@@ -7,7 +7,7 @@
     <string name="category_attack">Attacks</string>
     <string name="effect_atk">Attack</string>
     <string name="effect_dmg">Damage</string>
-    <string name="effect_dmgo">Damage per Turn</string>
+    <string name="effect_dmgo">Ongoing Damage</string>
     <string name="effect_dmgtype">Damage Type</string>
     <string name="critical_bonus">Critical Only?</string>
 
