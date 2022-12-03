@@ -35,6 +35,9 @@
     <string name="category_misc">Miscellaneous</string>
     <string name="effect_init">Initiative</string>
     <string name="effect_skill">Skill</string>
+    <string name="effect_exhaustion">Exhaustion</string>
+    <string name="effect_requires_concentration">Requires Concentration</string>
+    <string name="effect_magic_resistance">Magic Resistance</string>
     
     <string name="category_situational">Situational</string>
     <string name="effect_cover">Cover</string>
