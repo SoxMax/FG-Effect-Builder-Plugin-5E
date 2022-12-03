@@ -41,6 +41,7 @@
 		<includefile source="editors/effect/HEAL.xml" />
 		<includefile source="editors/effect/IMMUNE.xml" />
 		<includefile source="editors/effect/INIT.xml" />
+		<includefile source="editors/effect/MAGIC_RESISTANCE.xml" />
 		<includefile source="editors/effect/REGEN.xml" />
 		<includefile source="editors/effect/REQUIRES_CONCENTRATION.xml" />
 		<includefile source="editors/effect/RESIST.xml" />
