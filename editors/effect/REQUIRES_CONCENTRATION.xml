@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_REQUIRES_CONCENTRATION">
+        <script file="editors/effect/scripts/REQUIRES_CONCENTRATION.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_REQUIRES_CONCENTRATION">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="REQUIRES_CONCENTRATION",
+                    labelres="effect_requires_concentration",
+                    windowclass="effect_REQUIRES_CONCENTRATION"
+                }
+            )
+        end
+    </script>
+</root>

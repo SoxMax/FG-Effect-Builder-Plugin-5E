@@ -42,6 +42,7 @@
 		<includefile source="editors/effect/IMMUNE.xml" />
 		<includefile source="editors/effect/INIT.xml" />
 		<includefile source="editors/effect/REGEN.xml" />
+		<includefile source="editors/effect/REQUIRES_CONCENTRATION.xml" />
 		<includefile source="editors/effect/RESIST.xml" />
 		<includefile source="editors/effect/SAVE.xml" />
 		<includefile source="editors/effect/SKILL.xml" />
