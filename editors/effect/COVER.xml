@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_COVER">
+        <script file="editors/effect/scripts/COVER.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+            
+            <cycler_eb_range />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_COVER">
+        function onInit()
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="COVER",
+                    labelres="effect_cover",
+                    windowclass="effect_COVER"
+                }
+            )
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="SCOVER",
+                    labelres="effect_scover",
+                    windowclass="effect_COVER"
+                }
+            )
+        end
+    </script>
+</root>
