@@ -2,7 +2,7 @@
 <root version="3.3">
 	<properties>
 		<name>Feature: Effect Builder Plugin - 5e</name>
-		<version>0.7.0</version>
+		<version>1.0.0</version>
 		<author>SoxMax</author>
 		<description>Plugin for the Effect Builder providing D&#38;D 5e effects</description>
 		<loadorder>2</loadorder>
@@ -11,7 +11,7 @@
 		</ruleset>
 	</properties>
 	
-	<announcement text="https://forge.fantasygrounds.com/shop/items/463/view  \r Effect Builder Plugin - D&#38;D 5e / PFRPG Effects v0.7.0 \r Plugin for the Effect Builder providing D&#38;D 5e effects" font="emotefont" />
+	<announcement text="https://forge.fantasygrounds.com/shop/items/463/view  \r Effect Builder Plugin - D&#38;D 5e / PFRPG Effects v1.0.0 \r Plugin for the Effect Builder providing D&#38;D 5e effects" font="emotefont" />
 	
 	<base>
 		<!-- Templates -->
