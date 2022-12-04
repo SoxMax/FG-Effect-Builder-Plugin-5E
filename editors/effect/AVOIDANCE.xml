@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="effect_MAGIC_RESISTANCE">
-        <script file="editors/effect/scripts/MAGIC_RESISTANCE.lua" />
+    <windowclass name="effect_AVOIDANCE">
+        <script file="editors/effect/scripts/AVOIDANCE.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor_eb />
         </sheetdata>
     </windowclass>
-    <script name="loader_MAGIC_RESISTANCE">
+    <script name="loader_AVOIDANCE">
         function onInit()
             EditorManager.addEditor(
                 "category_traits",
                 {
-                    value="MAGIC_RESISTANCE",
-                    labelres="effect_magic_resistance",
-                    windowclass="effect_MAGIC_RESISTANCE"
+                    value="AVOIDANCE",
+                    labelres="effect_avoidance",
+                    windowclass="effect_AVOIDANCE"
                 }
             )
         end

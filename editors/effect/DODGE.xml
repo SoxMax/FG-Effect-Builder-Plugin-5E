@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DODGE">
+        <script file="editors/effect/scripts/DODGE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DODGE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="DODGE",
+                    labelres="effect_dodge",
+                    windowclass="effect_DODGE"
+                }
+            )
+        end
+    </script>
+</root>
