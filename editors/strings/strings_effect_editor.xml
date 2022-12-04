@@ -42,7 +42,7 @@
     <string name="effect_cover">Cover</string>
     <string name="effect_scover">Superior Cover</string>
 
-    <string name="category_traits">Traits</string>
+    <string name="category_trait">Trait</string>
     <string name="effect_magic_resistance">Magic Resistance</string>
     <string name="effect_avoidance">Avoidance</string>
     <string name="effect_evasion">Evasion</string>

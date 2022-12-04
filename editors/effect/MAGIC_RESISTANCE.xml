@@ -11,7 +11,7 @@
     <script name="loader_MAGIC_RESISTANCE">
         function onInit()
             EditorManager.addEditor(
-                "category_traits",
+                "category_trait",
                 {
                     value="MAGIC_RESISTANCE",
                     labelres="effect_magic_resistance",

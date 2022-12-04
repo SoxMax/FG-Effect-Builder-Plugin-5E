@@ -11,7 +11,7 @@
     <script name="loader_AVOIDANCE">
         function onInit()
             EditorManager.addEditor(
-                "category_traits",
+                "category_trait",
                 {
                     value="AVOIDANCE",
                     labelres="effect_avoidance",

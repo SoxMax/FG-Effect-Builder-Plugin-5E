@@ -11,7 +11,7 @@
     <script name="loader_DODGE">
         function onInit()
             EditorManager.addEditor(
-                "category_misc",
+                "category_trait",
                 {
                     value="DODGE",
                     labelres="effect_dodge",

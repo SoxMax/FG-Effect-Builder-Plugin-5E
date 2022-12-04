@@ -11,7 +11,7 @@
     <script name="loader_EVASION">
         function onInit()
             EditorManager.addEditor(
-                "category_misc",
+                "category_trait",
                 {
                     value="EVASION",
                     labelres="effect_evasion",
