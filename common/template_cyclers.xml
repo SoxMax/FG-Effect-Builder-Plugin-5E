@@ -47,8 +47,8 @@
     </template>
 
     <template name="cycler_eb_not">
-        <cycler_eb_valueholder name="not">
-            <anchored width="50" />
+        <cycler_eb_valueholder name="negator">
+            <anchored width="25" />
             <parameters mergerule="replace">
                 <labels>NOT</labels>
                 <values>!</values>

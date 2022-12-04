@@ -61,7 +61,7 @@
     </template>
     <windowclass name="subwindow_eb_dice_value">
         <script file="common/scripts/subwindow_eb_dice_value.lua" />
-        <margins control="0,0,0,2" />
+        <margins control="0,0,5,2" />
         <sheetdata>
             <leftanchor_eb />
             
@@ -86,7 +86,7 @@
     </template>
     <windowclass name="subwindow_eb_number_value">
         <script file="common/scripts/subwindow_eb_dice_value.lua" />
-        <margins control="0,0,0,2" />
+        <margins control="0,0,5,2" />
         <sheetdata>
             <leftanchor_eb />
 
@@ -96,31 +96,49 @@
         </sheetdata>
     </windowclass>
 
+    <template name="subwindow_eb_damage_type">
+        <subwindow_eb_valueholder name="damage_type">
+            <anchored>
+                <size><width>135</width></size>
+            </anchored>
+            <class>subwindow_eb_damage_type</class>
+        </subwindow_eb_valueholder>
+    </template>
+    <windowclass name="subwindow_eb_damage_type">
+        <script file="common/scripts/subwindow_eb_damage_type.lua" />
+        <margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+            <cycler_eb_not>
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </cycler_eb_not>
+            <combobox_eb_damage_type>
+                <anchored>
+                    <size><width>90</width></size>
+                </anchored>
+                <script>
+                    function onInit()
+                        super.onInit()
+                        add("all")
+                    end
+                    function onValueChanged()
+                        window.damageFieldUpdated()
+                        super.onValueChanged()
+                    end
+                </script>
+            </combobox_eb_damage_type>
+        </sheetdata>
+    </windowclass>
+
     <template name="subwindow_eb_damage_types">
         <subwindow_eb_valueholder name="damage_types">
             <class>subwindow_eb_damage_types</class>
             <anchored>
-                <left offset="-5" />
+                <left offset="0" />
             </anchored>
         </subwindow_eb_valueholder>
-    </template>
-    <template name="subwindow_eb_damage_types_combobox">
-        <combobox_eb_damage_type>
-            <anchored>
-                <size><width>90</width></size>
-                <left><offset>10</offset></left>
-            </anchored>
-            <script>
-                function onInit()
-                    super.onInit()
-                    add("all")
-                end
-                function onValueChanged()
-                    window.damageFieldUpdated(self)
-                    super.onValueChanged()
-                end
-            </script>
-        </combobox_eb_damage_type>
     </template>
     <windowclass name="subwindow_eb_damage_types">
         <script file="common/scripts/subwindow_eb_damage_types.lua" />
