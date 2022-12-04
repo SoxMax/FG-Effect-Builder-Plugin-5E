@@ -113,7 +113,7 @@
             <script>
                 function onInit()
                     super.onInit()
-                    addItems({"all"})
+                    add("all")
                 end
                 function onValueChanged()
                     window.damageFieldUpdated(self)
