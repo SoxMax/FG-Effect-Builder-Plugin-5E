@@ -1,5 +1,5 @@
 function getStringValue()
-    local valueString = stat_value.getStringValue()
+    local valueString = stat_value.getStringValue() .. class_value.getStringValue()
     if valueString ~= "" then
         local sign = multiply_divide.getStringValue()
         local factor_value = factor.getValue()

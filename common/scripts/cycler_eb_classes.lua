@@ -6,5 +6,5 @@ function onInit()
         table.insert(labels, classLabel)
         table.insert(values, class:upper())
     end
-    self.initialize(table.concat(labels, "|"), table.concat(values, "|"), "None", nil, "")
+    self.initialize(table.concat(labels, "|"), table.concat(values, "|"), "Class", nil, "")
 end
