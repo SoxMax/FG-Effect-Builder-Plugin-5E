@@ -33,10 +33,13 @@
 		<includefile source="editors/effect/ADVSAV.xml" />
 		<includefile source="editors/effect/ADVSKILL.xml" />
 		<includefile source="editors/effect/ATK.xml" />
+		<includefile source="editors/effect/AVOIDANCE.xml" />
 		<includefile source="editors/effect/COVER.xml" />
 		<includefile source="editors/effect/DMG.xml" />
 		<includefile source="editors/effect/DMGO.xml" />
 		<includefile source="editors/effect/DMGTYPE.xml" />
+		<includefile source="editors/effect/DODGE.xml" />
+		<includefile source="editors/effect/EVASION.xml" />
 		<includefile source="editors/effect/EXHAUSTION.xml" />
 		<includefile source="editors/effect/HEAL.xml" />
 		<includefile source="editors/effect/IMMUNE.xml" />
