@@ -79,4 +79,14 @@
             </parameters>
         </cycler_eb_valueholder>
     </template>
+
+    <template name="cycler_eb_classes">
+        <cycler_eb_valueholder name="classes">
+            <anchored width="40" />
+            <parameters mergerule="replace">
+                <defaultlabel>None</defaultlabel>
+            </parameters>
+            <script file="common/scripts/cycler_eb_classes.lua" />
+        </cycler_eb_valueholder>
+    </template>
 </root>

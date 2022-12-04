@@ -18,3 +18,13 @@ function getStringValue()
     end
     return valueString
 end
+
+function onTagValueChanged(tagControl)
+    local otherTagControl = stat_value
+    if otherTagControl == tagControl then
+        otherTagControl = class_value
+    end
+    if tagControl.getStringValue() ~= "" and otherTagControl.getStringValue() ~= "" then
+        otherTagControl.setStringValue("")
+    end
+end
