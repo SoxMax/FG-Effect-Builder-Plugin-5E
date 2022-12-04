@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_AVOIDANCE">
+        <script file="editors/effect/scripts/AVOIDANCE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_AVOIDANCE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_trait",
+                {
+                    value="AVOIDANCE",
+                    labelres="effect_avoidance",
+                    windowclass="effect_AVOIDANCE"
+                }
+            )
+        end
+    </script>
+</root>

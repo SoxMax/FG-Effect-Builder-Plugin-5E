@@ -71,12 +71,22 @@
 
     <template name="cycler_eb_stat_values">
         <cycler_eb_valueholder name="stat_value">
-            <anchored width="40" />
+            <anchored width="30" />
             <parameters mergerule="replace">
-                <defaultlabel>None</defaultlabel>
+                <defaultlabel>Stat</defaultlabel>
                 <labels>STR|DEX|CON|INT|WIS|CHA|PRF|LVL</labels>
                 <values>STR|DEX|CON|INT|WIS|CHA|PRF|LVL</values>
             </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
+    <template name="cycler_eb_classes">
+        <cycler_eb_valueholder name="classes">
+            <anchored width="60" />
+            <parameters mergerule="replace">
+                <defaultlabel>Class</defaultlabel>
+            </parameters>
+            <script file="common/scripts/cycler_eb_classes.lua" />
         </cycler_eb_valueholder>
     </template>
 </root>

@@ -1,5 +1,5 @@
 function getStringValue()
-    local valueString = stat_value.getStringValue()
+    local valueString = stat_value.getStringValue() .. class_value.getStringValue()
     if valueString ~= "" then
         local sign = multiply_divide.getStringValue()
         local factor_value = factor.getValue()
@@ -17,4 +17,14 @@ function getStringValue()
         valueString = "[" .. plus_minus.getStringValue() .. valueString .."]"
     end
     return valueString
+end
+
+function onTagValueChanged(tagControl)
+    local otherTagControl = stat_value
+    if otherTagControl == tagControl then
+        otherTagControl = class_value
+    end
+    if tagControl.getStringValue() ~= "" and otherTagControl.getStringValue() ~= "" then
+        otherTagControl.setStringValue("")
+    end
 end

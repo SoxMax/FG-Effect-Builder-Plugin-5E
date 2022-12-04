@@ -14,7 +14,22 @@
 
             <cycler_eb_plus_minus />
 
-            <cycler_eb_stat_values name="stat_value" />
+            <cycler_eb_stat_values name="stat_value">
+                <script>
+                    function onValueChanged()
+                        window.onTagValueChanged(self)
+                        super.onValueChanged()
+                    end
+                </script>
+            </cycler_eb_stat_values>
+            <cycler_eb_classes name="class_value">
+                <script>
+                    function onValueChanged()
+                        window.onTagValueChanged(self)
+                        super.onValueChanged()
+                    end
+                </script>
+            </cycler_eb_classes>
 
             <cycler_eb_multiply_divide>
                 <script>
