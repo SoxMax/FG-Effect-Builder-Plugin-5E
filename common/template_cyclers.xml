@@ -46,6 +46,16 @@
         </cycler_eb_valueholder>
     </template>
 
+    <template name="cycler_eb_not">
+        <cycler_eb_valueholder name="negator">
+            <anchored width="25" />
+            <parameters mergerule="replace">
+                <labels>NOT</labels>
+                <values>!</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
     <template name="cycler_eb_plus_minus">
         <cycler_eb_valueholder name="plus_minus">
             <anchored width="10" />
