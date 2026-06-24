@@ -34,9 +34,10 @@
 		<includefile source="editors/effect/ADVSKILL.xml" />
 		<includefile source="editors/effect/ATK.xml" />
 		<includefile source="editors/effect/AVOIDANCE.xml" />
+		<includefile source="editors/effect/CHECK.xml" />
 		<includefile source="editors/effect/COVER.xml" />
+		<includefile source="editors/effect/CRIT.xml" />
 		<includefile source="editors/effect/DMG.xml" />
-		<includefile source="editors/effect/DMGO.xml" />
 		<includefile source="editors/effect/DMGTYPE.xml" />
 		<includefile source="editors/effect/DODGE.xml" />
 		<includefile source="editors/effect/EVASION.xml" />
@@ -45,19 +46,59 @@
 		<includefile source="editors/effect/IMMUNE.xml" />
 		<includefile source="editors/effect/INIT.xml" />
 		<includefile source="editors/effect/MAGIC_RESISTANCE.xml" />
-		<includefile source="editors/effect/REGEN.xml" />
 		<includefile source="editors/effect/REQUIRES_CONCENTRATION.xml" />
 		<includefile source="editors/effect/RESIST.xml" />
 		<includefile source="editors/effect/SAVE.xml" />
+		<includefile source="editors/effect/SAVEDC.xml" />
+		<includefile source="editors/effect/SIZE.xml" />
 		<includefile source="editors/effect/SKILL.xml" />
 		<includefile source="editors/effect/VULN.xml" />
+
+		<!-- Susceptibility / Damage adjustment (ruleset-specific: DataCommon.dmgtypes) -->
+		<includefile source="editors/effect/ABSORB.xml" />
+		<includefile source="editors/effect/DMGMULT.xml" />
+		<includefile source="editors/effect/DMGR.xml" />
+		<includefile source="editors/effect/DMGWARD.xml" />
+		<includefile source="editors/effect/DT.xml" />
+		<includefile source="editors/effect/DMGBASETYPE.xml" />
+		<includefile source="editors/effect/DMGDIE.xml" />
+		<includefile source="editors/effect/DMGMAX.xml" />
+		<includefile source="editors/effect/DMGHALF.xml" />
+		<includefile source="editors/effect/DMGCONVERT.xml" />
+
+		<!-- Healing (ruleset-specific roll handling) -->
+		<includefile source="editors/effect/HEALMULT.xml" />
+		<includefile source="editors/effect/HDMULT.xml" />
+		<includefile source="editors/effect/TEMPMULT.xml" />
+		<includefile source="editors/effect/HD.xml" />
+		<includefile source="editors/effect/TEMP.xml" />
+		<includefile source="editors/effect/HEALDIE.xml" />
+		<includefile source="editors/effect/HEALMAX.xml" />
+		<includefile source="editors/effect/HEALHALF.xml" />
+		<includefile source="editors/effect/HDDIE.xml" />
+		<includefile source="editors/effect/HDMAX.xml" />
+		<includefile source="editors/effect/HDHALF.xml" />
+
+		<!-- Advantage / Disadvantage -->
+		<includefile source="editors/effect/ADVCONC.xml" />
+
+		<!-- Situational -->
+		<includefile source="editors/effect/RELIABLE.xml" />
+
+		<!-- Ongoing (ruleset-specific; SAVEO uses 5E ability saves, no bonus type) -->
+		<includefile source="editors/effect/DMGO.xml" />
+		<includefile source="editors/effect/TEMPO.xml" />
+		<includefile source="editors/effect/REGEN.xml" />
+		<includefile source="editors/effect/SAVEO.xml" />
 
 		<includefile source="editors/conditional/conditional_ALIGN.xml" />
 		<includefile source="editors/conditional/conditional_CONDITION.xml" />
 		<includefile source="editors/conditional/conditional_CREATURE_TYPE.xml" />
 		<includefile source="editors/conditional/conditional_CUSTOM.xml" />
+		<includefile source="editors/conditional/conditional_ELSE.xml" />
 		<includefile source="editors/conditional/conditional_HEALTH.xml" />
 		<includefile source="editors/conditional/conditional_SIZE.xml" />
+		<includefile source="editors/conditional/conditional_STATUS.xml" />
 
 		<!-- Final Init -->
 		<script name="EffectBuilderRulesetPluginInit" file="scripts/init.lua" />

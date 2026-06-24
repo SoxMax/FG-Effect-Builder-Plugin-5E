@@ -24,12 +24,12 @@
 
     <template name="cycler_eb_ifs">
         <cycler_eb_valueholder name="target">
-            <anchored width="60" />
+            <anchored width="75" />
             <parameters mergerule="replace">
                 <defaultlabelres>if</defaultlabelres>
                 <defaultvalue>IF</defaultvalue>
-                <labelsres>ift</labelsres>
-                <values>IFT</values>
+                <labelsres>ift|elseif|elseift</labelsres>
+                <values>IFT|ELSEIF|ELSEIFT</values>
             </parameters>
         </cycler_eb_valueholder>
     </template>

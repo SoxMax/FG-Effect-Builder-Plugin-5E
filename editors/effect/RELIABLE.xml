@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_RELIABLE">
+        <script file="editors/effect/scripts/RELIABLE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_valueholder name="roll_type">
+                <anchored width="90" />
+                <parameters mergerule="replace">
+                    <defaultlabel>Any Roll</defaultlabel>
+                    <defaultvalue></defaultvalue>
+                    <labels>Attack|Ability Check|Concentration|Death Save|Initiative|Saving Throw|Skill</labels>
+                    <values>ATK|CHK|CONC|DEATH|INIT|SAV|SKILL</values>
+                </parameters>
+            </cycler_eb_valueholder>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_RELIABLE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="RELIABLE",
+                    labelres="effect_reliable",
+                    windowclass="effect_RELIABLE"
+                }
+            )
+        end
+    </script>
+</root>

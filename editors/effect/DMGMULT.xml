@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DMGMULT">
+        <script file="editors/effect/scripts/DMGMULT.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_multiplier />
+
+            <cycler_eb_range>
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </cycler_eb_range>
+
+            <subwindow_eb_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DMGMULT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DMGMULT",
+                    labelres="effect_dmgmult",
+                    windowclass="effect_DMGMULT"
+                }
+            )
+        end
+    </script>
+</root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="conditional_ELSE">
+        <script file="editors/conditional/scripts/conditional_ELSE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <label_eb>
+                <static textres="effect_conditional_else_note" />
+            </label_eb>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_conditional_ELSE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_conditional",
+                {
+                    value="CONDITIONAL_ELSE",
+                    labelres="effect_conditional_else",
+                    windowclass="conditional_ELSE"
+                }
+            )
+        end
+    </script>
+</root>

@@ -1,6 +1,5 @@
 function createEffectString()
-    local tag = parentcontrol.window.effect.getStringValue() .. turn_timing.getStringValue()
-    local effectString = tag .. ": " .. dice_value.getStringValue()
+    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. number_value.getValue()
     local damageType = damage_types.getStringValue()
     if damageType ~= "" then
         effectString = effectString .. " " .. damageType

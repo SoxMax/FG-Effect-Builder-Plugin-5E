@@ -7,23 +7,17 @@
         <sheetdata>
             <leftanchor_eb />
 
+            <cycler_eb_turn_timing />
+
             <subwindow_eb_dice_value />
 
-            <combobox_eb_damage_type name="damage_type_1">
-                <anchored>
-                    <left offset="5" />
-                </anchored>
-            </combobox_eb_damage_type>
-
-            <cycler_eb_and_or />
-
-            <combobox_eb_damage_type name="damage_type_2"/>
+            <subwindow_eb_damage_types />
         </sheetdata>
     </windowclass>
     <script name="loader_REGEN">
         function onInit()
             EditorManager.addEditor(
-                "category_heal",
+                "category_ongoing",
                 {
                     value="REGEN",
                     labelres="effect_regen",

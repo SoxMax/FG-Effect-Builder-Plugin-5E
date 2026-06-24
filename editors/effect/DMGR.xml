@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DMGR">
+        <script file="editors/effect/scripts/DMGR.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="number_value" />
+
+            <subwindow_eb_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DMGR">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DMGR",
+                    labelres="effect_dmgr",
+                    windowclass="effect_DMGR"
+                }
+            )
+        end
+    </script>
+</root>

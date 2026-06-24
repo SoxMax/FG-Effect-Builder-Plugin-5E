@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_SAVEO">
+        <script file="editors/effect/scripts/SAVEO.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_turn_timing />
+
+            <number_eb_valueholder name="number_value" />
+
+            <combobox_eb_save>
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </combobox_eb_save>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_SAVEO">
+        function onInit()
+            EditorManager.addEditor(
+                "category_ongoing",
+                {
+                    value="SAVEO",
+                    labelres="effect_saveo",
+                    windowclass="effect_SAVEO"
+                }
+            )
+        end
+    </script>
+</root>

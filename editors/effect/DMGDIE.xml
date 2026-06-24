@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DMGDIE">
+        <script file="editors/effect/scripts/DMGDIE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="number_value">
+                <min>-100</min>
+            </number_eb_valueholder>
+
+            <subwindow_eb_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DMGDIE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DMGDIE",
+                    labelres="effect_dmgdie",
+                    windowclass="effect_DMGDIE"
+                }
+            )
+        end
+    </script>
+</root>

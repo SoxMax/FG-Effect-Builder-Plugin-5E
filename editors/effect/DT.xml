@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DT">
+        <script file="editors/effect/scripts/DT.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="number_value" />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DT",
+                    labelres="effect_dt",
+                    windowclass="effect_DT"
+                }
+            )
+        end
+    </script>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="conditional_STATUS">
+        <script file="editors/conditional/scripts/conditional_STATUS.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_ifs />
+
+            <cycler_eb_not />
+
+            <cycler_eb_valueholder name="status">
+                <anchored width="80" />
+                <parameters mergerule="replace">
+                    <defaultlabel>healthy</defaultlabel>
+                    <defaultvalue>healthy</defaultvalue>
+                    <labels>bloodied|wounded</labels>
+                    <values>bloodied|wounded</values>
+                </parameters>
+            </cycler_eb_valueholder>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_conditional_STATUS">
+        function onInit()
+            EditorManager.addEditor(
+                "category_conditional",
+                {
+                    value="CONDITIONAL_STATUS",
+                    labelres="effect_conditional_status",
+                    windowclass="conditional_STATUS"
+                }
+            )
+        end
+    </script>
+</root>
