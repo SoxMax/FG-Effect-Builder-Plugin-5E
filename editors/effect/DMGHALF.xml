@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DMGHALF">
+        <script file="editors/effect/scripts/DMGHALF.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_range />
+
+            <subwindow_eb_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DMGHALF">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DMGHALF",
+                    labelres="effect_dmghalf",
+                    windowclass="effect_DMGHALF"
+                }
+            )
+        end
+    </script>
+</root>

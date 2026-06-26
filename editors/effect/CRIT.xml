@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_CRIT">
+        <script file="editors/effect/scripts/CRIT.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="number_value" />
+
+            <cycler_eb_range>
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </cycler_eb_range>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_CRIT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_attack",
+                {
+                    value="CRIT",
+                    labelres="effect_crit",
+                    windowclass="effect_CRIT"
+                }
+            )
+        end
+    </script>
+</root>

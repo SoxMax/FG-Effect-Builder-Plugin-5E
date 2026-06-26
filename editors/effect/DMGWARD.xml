@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DMGWARD">
+        <script file="editors/effect/scripts/DMGWARD.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="number_value" />
+
+            <subwindow_eb_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DMGWARD">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DMGWARD",
+                    labelres="effect_dmgward",
+                    windowclass="effect_DMGWARD"
+                }
+            )
+        end
+    </script>
+</root>

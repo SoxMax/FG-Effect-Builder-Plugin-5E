@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_HEALHALF">
+        <script file="editors/effect/scripts/HEALHALF.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <spaceholder_eb />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_HEALHALF">
+        function onInit()
+            EditorManager.addEditor(
+                "category_heal",
+                {
+                    value="HEALHALF",
+                    labelres="effect_healhalf",
+                    windowclass="effect_HEALHALF"
+                }
+            )
+        end
+    </script>
+</root>

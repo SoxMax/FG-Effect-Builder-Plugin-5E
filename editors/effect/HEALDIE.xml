@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_HEALDIE">
+        <script file="editors/effect/scripts/HEALDIE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="number_value">
+                <min>-100</min>
+            </number_eb_valueholder>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_HEALDIE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_heal",
+                {
+                    value="HEALDIE",
+                    labelres="effect_healdie",
+                    windowclass="effect_HEALDIE"
+                }
+            )
+        end
+    </script>
+</root>

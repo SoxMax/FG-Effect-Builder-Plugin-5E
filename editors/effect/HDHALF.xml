@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_HDHALF">
+        <script file="editors/effect/scripts/HDHALF.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <spaceholder_eb />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_HDHALF">
+        function onInit()
+            EditorManager.addEditor(
+                "category_heal",
+                {
+                    value="HDHALF",
+                    labelres="effect_hdhalf",
+                    windowclass="effect_HDHALF"
+                }
+            )
+        end
+    </script>
+</root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DMGCONVERT">
+        <script file="editors/effect/scripts/DMGCONVERT.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_valueholder name="mod_from">
+                <anchored width="70" />
+                <parameters mergerule="replace">
+                    <defaultlabel>(none)</defaultlabel>
+                    <defaultvalue></defaultvalue>
+                    <labels>Absorb|Immune|Resist|Vuln</labels>
+                    <values>ABSORB|IMMUNE|RESIST|VULN</values>
+                </parameters>
+            </cycler_eb_valueholder>
+
+            <label_eb>
+                <static>to</static>
+            </label_eb>
+
+            <cycler_eb_valueholder name="mod_to">
+                <anchored width="70" />
+                <parameters mergerule="replace">
+                    <defaultlabel>(none)</defaultlabel>
+                    <defaultvalue></defaultvalue>
+                    <labels>Absorb|Immune|Resist|Vuln</labels>
+                    <values>ABSORB|IMMUNE|RESIST|VULN</values>
+                </parameters>
+            </cycler_eb_valueholder>
+
+            <subwindow_eb_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DMGCONVERT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DMGCONVERT",
+                    labelres="effect_dmgconvert",
+                    windowclass="effect_DMGCONVERT"
+                }
+            )
+        end
+    </script>
+</root>

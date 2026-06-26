@@ -3,26 +3,55 @@
 <root>
     <string name="category_ability">Ability</string>
     <string name="check_bonus">Check Bonus?</string>
+    <string name="effect_check">Ability Check</string>
 
     <string name="category_attack">Attacks</string>
     <string name="effect_atk">Attack</string>
     <string name="effect_dmg">Damage</string>
-    <string name="effect_dmgo">Ongoing Damage</string>
     <string name="effect_dmgtype">Damage Type</string>
+    <string name="effect_crit">Critical Range</string>
     <string name="critical_bonus">Critical Only?</string>
 
     <string name="category_defense">Defense</string>
     <string name="effect_ac">Armor Class (AC)</string>
     <string name="effect_save">Save</string>
+    <string name="effect_savedc">Save DC</string>
+
+    <string name="category_ongoing">Ongoing</string>
+    <string name="effect_dmgo">Ongoing Damage</string>
+    <string name="effect_tempo">Ongoing Temp HP</string>
+    <string name="effect_regen">Regeneration</string>
+    <string name="effect_saveo">Ongoing Save</string>
 
     <string name="category_susceptibility">Susceptibility</string>
     <string name="effect_resist">Resistance (Resist)</string>
     <string name="effect_immune">Immunity</string>
     <string name="effect_vuln">Vulnerability</string>
-    
+    <string name="effect_absorb">Absorb</string>
+    <string name="effect_dmgmult">Damage Multiplier</string>
+    <string name="effect_dmgr">Damage Reduction</string>
+    <string name="effect_dmgward">Damage Ward</string>
+    <string name="effect_dt">Damage Threshold</string>
+    <string name="effect_dmgbasetype">Damage Base Type</string>
+    <string name="effect_dmgdie">Damage Per Die</string>
+    <string name="effect_dmgmax">Damage Maximized</string>
+    <string name="effect_dmghalf">Damage Halved</string>
+    <string name="effect_dmgconvert">Damage Mod Convert</string>
+
     <string name="category_heal">Healing</string>
     <string name="effect_heal">Heal</string>
     <string name="effect_regen">Regeneration</string>
+    <string name="effect_healmult">Heal Multiplier</string>
+    <string name="effect_tempmult">Temp HP Multiplier</string>
+    <string name="effect_hdmult">Hit Dice Multiplier</string>
+    <string name="effect_hd">Hit Dice</string>
+    <string name="effect_temp">Temporary HP</string>
+    <string name="effect_healdie">Heal Per Die</string>
+    <string name="effect_healmax">Heal Maximized</string>
+    <string name="effect_healhalf">Heal Halved</string>
+    <string name="effect_hddie">Hit Dice Per Die</string>
+    <string name="effect_hdmax">Hit Dice Maximized</string>
+    <string name="effect_hdhalf">Hit Dice Halved</string>
     
     <string name="category_advantage">(Dis)Advantages</string>
     <string name="advantage">Advantage</string>
@@ -31,16 +60,19 @@
     <string name="incoming">Incoming</string>
     <string name="effect_ability_check">Ability Check</string>
     <string name="effect_death">Death Rolls</string>
+    <string name="effect_concentration">Concentration</string>
     
     <string name="category_misc">Miscellaneous</string>
     <string name="effect_init">Initiative</string>
     <string name="effect_skill">Skill</string>
     <string name="effect_exhaustion">Exhaustion</string>
     <string name="effect_requires_concentration">Requires Concentration</string>
+    <string name="effect_size">Size</string>
     
     <string name="category_situational">Situational</string>
     <string name="effect_cover">Cover</string>
     <string name="effect_scover">Superior Cover</string>
+    <string name="effect_reliable">Reliable Roll</string>
 
     <string name="category_trait">Trait</string>
     <string name="effect_magic_resistance">Magic Resistance</string>
@@ -57,4 +89,9 @@
     <string name="effect_conditional_creature_type">Is Creature Type?</string>
     <string name="effect_conditional_health">At Health Level?</string>
     <string name="effect_conditional_custom_condition">Has Custom Condition?</string>
+    <string name="effect_conditional_status">Has Status?</string>
+    <string name="elseif">Else If Self</string>
+    <string name="elseift">Else If Target</string>
+    <string name="effect_conditional_else">Else</string>
+    <string name="effect_conditional_else_note">Subsequent effects apply when prior IF/IFT fail</string>
 </root>

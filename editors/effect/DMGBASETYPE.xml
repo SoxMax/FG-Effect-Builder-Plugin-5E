@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_DMGBASETYPE">
+        <script file="editors/effect/scripts/DMGBASETYPE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <combobox_eb_damage_type />
+
+            <cycler_eb_valueholder name="action_type">
+                <anchored width="70" />
+                <parameters mergerule="replace">
+                    <defaultlabel>Any</defaultlabel>
+                    <defaultvalue></defaultvalue>
+                    <labels>Weapon|Spell</labels>
+                    <values>weapon|spell</values>
+                </parameters>
+            </cycler_eb_valueholder>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DMGBASETYPE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DMGBASETYPE",
+                    labelres="effect_dmgbasetype",
+                    windowclass="effect_DMGBASETYPE"
+                }
+            )
+        end
+    </script>
+</root>
